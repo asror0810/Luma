@@ -4,4 +4,4 @@ function openMenyu(){
 }
 function closeMenyu(){
     return catMenyu.style.display = "none"
-}
+}""
