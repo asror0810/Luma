@@ -4,6 +4,8 @@ const catTuri = document.getElementById("catTur")
 const catp = document.getElementById("p")
 const catqol = document.getElementById("catqol")
 const catqoll = document.getElementById("catqoll")
+// const catPhone = document.getElementById("catPhone")
+const catPrice = document.getElementById("catPrice")
 function openMenyu(){
       return catMenyu.style.display = "block"
 }
@@ -13,7 +15,8 @@ function closeMenyu(){
 function catNoutbook (){
     catH1.innerText = "Noutbooklar"
 catTuri.innerText = "Noutbook Brendlari"
-catqol.innerText = "Noutbook kulerlari Soni"
+catqol.innerText = "Noutbook Qo'llanmasi"
+catPrice.innerText = "Noutbook Narxlari"
   catp.innerHTML = `
    <li>HP</li>
    <li>Lenovo</li>
@@ -28,44 +31,72 @@ catqol.innerText = "Noutbook kulerlari Soni"
     <li>2 ta kuler</li>
     <li>5 ta kuler</li>
   `
-  catp.style.display = "block"
-    catqoll.style.display = "block"
-  catqol.style.display = "block"
 }
 function catGame(){
-    catH1.innerText = "O'yin Avtomatlari"
-    catTuri.innerText = "O'yin Avtomatlar Brendlari"
-    catp.style.display = "none"
-    catqol.style.display = "none"
-    catqoll.style.display = "none"
+    catH1.innerText = "Avtomat Avtomatlari"
+    catTuri.innerText = "Avtomat  Brendlari"
+    catqol.innerText = ""
+    catp.innerHTML = `
+    <li>Play Station 5</li>
+    <li>Play Station 4</li>
+    <li>Xbox Series X</li>
+    <li>Xbox One</li>
+    `
+    catqoll.innerText = ""
+    catPrice.innerText = ""
 }
 function catKit(){
-    catH1.innerText = "Oshxona uchun Texnikalar"
+    catH1.innerText = "Oshxona Texnikalari"
     catTuri.innerText = "Oshxona Texnika Turlai"
-     catp.style.display = "none"
-    catqoll.style.display = "none"
-    catqol.style.display = "none"
+     catp.innerHTML = `
+    <li>Blender</li>
+    <li>Choynak</li>
+    <li>Qahva Mashinasi</li>
+    <li>Qahva Mashinasi</li>
+     `
+    catqol.innerText = ""
+    catqoll.innerText = ""
+    catPrice.innerText = ""
+
 }
 function catTel(){
     catH1.innerText = "Televizorlar"
     catTuri.innerText = "Televizor Brendlari"
-     catp.style.display = "none"
-    catqoll.style.display = "none"
-    catqol.style.display = "none"
+     catp.innerHTML = `
+    <li>LG</li>
+    <li>Samsung</li>
+    <li>Xiomi</li>
+    <li>LG</li>
+     `
+    catqoll.innerText = ""
+    catqol.innerText = ""
+    catPrice.innerText = ""
+
 }
 function catPhone(){
     catH1.innerText = "Telefonlar"
     catTuri.innerText = "Telefon Brendlari"
-     catp.style.display = "none"
-    catqol.style.display = "none"
-    catqoll.style.display = "none"
+    catp.innerHTML = `
+    <li>Apple</li>
+    <li>Samsung</li>
+    <li>Xiomi</li>
+    `
+    //  catp.innerText = ""
+    catqoll.innerText = ""
+  catqol.innerText = ""
+    catPrice.innerText = ""
 
 }
 function catBit(){
     catH1.innerText = "Bitavoy texnikalar"
     catTuri.innerText = "Bitavoy Texnika Turlari"
-     catp.style.display = "none"
-    catqol.style.display = "none"
-    catqoll.style.display = "none"
+         catp.innerHTML = `
+         <li>Bitavoy</li>
+            <li>Bitavoy</li>
+            <li>Bitavoy</li>
+         `
+    catqoll.innerText = ""
+  catqol.innerText = ""
+    catPrice.innerText = ""
 
 }

@@ -75,7 +75,7 @@
     position: absolute;
     width: 10%;
     height: 90%;
-    top: -36%;
+    top: -35%;
     border: none;
     background-color: red;
     color: white;
@@ -91,9 +91,6 @@
     background-color: red;
     color: white;
 }
-}
-.Kategoriya:hover{
-    box-shadow: 1px 5px 10px 0 red;
 }
 #form{
     width: 100%;
@@ -188,16 +185,17 @@ a{
     height: 10%;
 }
 #catMenyuH1 #cath1 {
-    width: 50%6;
+    width: 50%;
     border: 1px solid black;
 }
 #catTur{
     position: absolute;
-    top: 140%;
+    top: 130%;
+    ;
 }
 #p{
     position: relative;
-    top: 150%;
+    top: 140%;
     list-style-type: none;
 }
 #p li{
@@ -218,4 +216,11 @@ a{
 #catqoll li{
     padding: 3px;
     color: gray;
+}
+
+#catPrice{
+    position: absolute;
+    top: 130%;
+   left: 190%;
+   width: 100%;
 }
