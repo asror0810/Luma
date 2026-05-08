@@ -92,9 +92,6 @@
     color: white;
 }
 }
-.Kategoriya:hover{
-    box-shadow: 1px 5px 10px 0 red;
-}
 #form{
     width: 100%;
     height: 100%;
@@ -170,7 +167,7 @@ a{
 }
 #closeBtnDiv{
     position: relative;
-    top: -128.30%;
+    top: -128.50%;
     left: 76%;
 }
 #closeBtn{
