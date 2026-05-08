@@ -16,7 +16,11 @@ function catNoutbook (){
     catH1.innerText = "Noutbooklar"
 catTuri.innerText = "Noutbook Brendlari"
 catqol.innerText = "Noutbook Qo'llanmasi"
+<<<<<<< HEAD
 // catPrice.innerText = "Noutbook Narxlari"
+=======
+catPrice.innerText = "Noutbook Narxlari"
+>>>>>>> cbda251201da7dd8af3eaee75c47190301278261
   catp.innerHTML = `
    <li><a href="main.html">HP</a></li>
    <li><a href="main.html">Lenovo</a></li>
@@ -37,10 +41,17 @@ function catGame(){
     catTuri.innerText = "Avtomat  Brendlari"
     catqol.innerText = ""
     catp.innerHTML = `
+<<<<<<< HEAD
     <li><a href="#">Play Station 5</a></li>
     <li><a href="#">Play Station 4</a></li>
     <li><a href="#">Xbox Series X</a></li>
     <li><a href="#">Xbox One</a></li>
+=======
+    <li>Play Station 5</li>
+    <li>Play Station 4</li>
+    <li>Xbox Series X</li>
+    <li>Xbox One</li>
+>>>>>>> cbda251201da7dd8af3eaee75c47190301278261
     `
     catqoll.innerText = ""
     catPrice.innerText = ""
@@ -49,10 +60,17 @@ function catKit(){
     catH1.innerText = "Oshxona Texnikalari"
     catTuri.innerText = "Oshxona Texnika Turlai"
      catp.innerHTML = `
+<<<<<<< HEAD
     <li><a href="#">Blender</a></li>
     <li><a href="#">Choynak</a></li>
     <li><a href="#">Qahva Mashinasi</a></li>
     <li><a href="#">Qahva Mashinasi</a></li>
+=======
+    <li>Blender</li>
+    <li>Choynak</li>
+    <li>Qahva Mashinasi</li>
+    <li>Qahva Mashinasi</li>
+>>>>>>> cbda251201da7dd8af3eaee75c47190301278261
      `
     catqol.innerText = ""
     catqoll.innerText = ""
@@ -63,10 +81,17 @@ function catTel(){
     catH1.innerText = "Televizorlar"
     catTuri.innerText = "Televizor Brendlari"
      catp.innerHTML = `
+<<<<<<< HEAD
     <li><a href="#">LG</a></li>
     <li><a href="#">Samsung</a></li>
     <li><a href="#">Xiomi</a></li>
     <li><a href="#">LG</a></li>
+=======
+    <li>LG</li>
+    <li>Samsung</li>
+    <li>Xiomi</li>
+    <li>LG</li>
+>>>>>>> cbda251201da7dd8af3eaee75c47190301278261
      `
     catqoll.innerText = ""
     catqol.innerText = ""
@@ -77,9 +102,15 @@ function catPhone(){
     catH1.innerText = "Telefonlar"
     catTuri.innerText = "Telefon Brendlari"
     catp.innerHTML = `
+<<<<<<< HEAD
     <li><a href="#">Apple</a></li>
     <li><a href="#">Samsung</a></li>
     <li><a href="#">Xiomi</a></li>
+=======
+    <li>Apple</li>
+    <li>Samsung</li>
+    <li>Xiomi</li>
+>>>>>>> cbda251201da7dd8af3eaee75c47190301278261
     `
     //  catp.innerText = ""
     catqoll.innerText = ""
@@ -91,9 +122,15 @@ function catBit(){
     catH1.innerText = "Bitavoy texnikalar"
     catTuri.innerText = "Bitavoy Texnika Turlari"
          catp.innerHTML = `
+<<<<<<< HEAD
          <li><a href="#">Bitavoy</a></li>
             <li><a href="#">Bitavoy</a></li>
             <li><a href="#">Bitavoy</a></li>
+=======
+         <li>Bitavoy</li>
+            <li>Bitavoy</li>
+            <li>Bitavoy</li>
+>>>>>>> cbda251201da7dd8af3eaee75c47190301278261
          `
     catqoll.innerText = ""
   catqol.innerText = ""
