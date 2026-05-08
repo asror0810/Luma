@@ -4,6 +4,8 @@ const catTuri = document.getElementById("catTur")
 const catp = document.getElementById("p")
 const catqol = document.getElementById("catqol")
 const catqoll = document.getElementById("catqoll")
+// const catPhone = document.getElementById("catPhone")
+const catPrice = document.getElementById("catPrice")
 function openMenyu(){
       return catMenyu.style.display = "block"
 }
@@ -13,59 +15,88 @@ function closeMenyu(){
 function catNoutbook (){
     catH1.innerText = "Noutbooklar"
 catTuri.innerText = "Noutbook Brendlari"
-catqol.innerText = "Noutbook kulerlari Soni"
+catqol.innerText = "Noutbook Qo'llanmasi"
+// catPrice.innerText = "Noutbook Narxlari"
   catp.innerHTML = `
-   <li>HP</li>
-   <li>Lenovo</li>
-   <li>Asus</li>
-   <li>Acer</li>
-   <li>Macbook</li>
-   <li>Acer</li>
-   <li>Asus</li>
+   <li><a href="main.html">HP</a></li>
+   <li><a href="main.html">Lenovo</a></li>
+   <li><a href="main.html">Asus</a></li>
+   <li><a href="main.html">Acer</a></li>
+   <li><a href="main.html">Macbook</a></li>
+   <li><a href="main.html">Acer</a></li>
+   <li><a href="main.html">Asus</a></li>
   `;
   catqoll.innerHTML = `
     <li>1 ta kuler</li>
     <li>2 ta kuler</li>
     <li>5 ta kuler</li>
   `
-  catp.style.display = "block"
-    catqoll.style.display = "block"
-  catqol.style.display = "block"
 }
 function catGame(){
-    catH1.innerText = "O'yin Avtomatlari"
-    catTuri.innerText = "O'yin Avtomatlar Brendlari"
-    catp.style.display = "none"
-    catqol.style.display = "none"
-    catqoll.style.display = "none"
+    catH1.innerText = "Avtomat Avtomatlari"
+    catTuri.innerText = "Avtomat  Brendlari"
+    catqol.innerText = ""
+    catp.innerHTML = `
+    <li><a href="#">Play Station 5</a></li>
+    <li><a href="#">Play Station 4</a></li>
+    <li><a href="#">Xbox Series X</a></li>
+    <li><a href="#">Xbox One</a></li>
+    `
+    catqoll.innerText = ""
+    catPrice.innerText = ""
 }
 function catKit(){
-    catH1.innerText = "Oshxona uchun Texnikalar"
+    catH1.innerText = "Oshxona Texnikalari"
     catTuri.innerText = "Oshxona Texnika Turlai"
-     catp.style.display = "none"
-    catqoll.style.display = "none"
-    catqol.style.display = "none"
+     catp.innerHTML = `
+    <li><a href="#">Blender</a></li>
+    <li><a href="#">Choynak</a></li>
+    <li><a href="#">Qahva Mashinasi</a></li>
+    <li><a href="#">Qahva Mashinasi</a></li>
+     `
+    catqol.innerText = ""
+    catqoll.innerText = ""
+    catPrice.innerText = ""
+
 }
 function catTel(){
     catH1.innerText = "Televizorlar"
     catTuri.innerText = "Televizor Brendlari"
-     catp.style.display = "none"
-    catqoll.style.display = "none"
-    catqol.style.display = "none"
+     catp.innerHTML = `
+    <li><a href="#">LG</a></li>
+    <li><a href="#">Samsung</a></li>
+    <li><a href="#">Xiomi</a></li>
+    <li><a href="#">LG</a></li>
+     `
+    catqoll.innerText = ""
+    catqol.innerText = ""
+    catPrice.innerText = ""
+
 }
 function catPhone(){
     catH1.innerText = "Telefonlar"
     catTuri.innerText = "Telefon Brendlari"
-     catp.style.display = "none"
-    catqol.style.display = "none"
-    catqoll.style.display = "none"
+    catp.innerHTML = `
+    <li><a href="#">Apple</a></li>
+    <li><a href="#">Samsung</a></li>
+    <li><a href="#">Xiomi</a></li>
+    `
+    //  catp.innerText = ""
+    catqoll.innerText = ""
+  catqol.innerText = ""
+    catPrice.innerText = ""
 
 }
 function catBit(){
     catH1.innerText = "Bitavoy texnikalar"
     catTuri.innerText = "Bitavoy Texnika Turlari"
-     catp.style.display = "none"
-    catqol.style.display = "none"
-    catqoll.style.display = "none"
+         catp.innerHTML = `
+         <li><a href="#">Bitavoy</a></li>
+            <li><a href="#">Bitavoy</a></li>
+            <li><a href="#">Bitavoy</a></li>
+         `
+    catqoll.innerText = ""
+  catqol.innerText = ""
+    catPrice.innerText = ""
 
 }

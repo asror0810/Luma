@@ -2,13 +2,16 @@
     margin:0px;
     padding: 0px;
 }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 #container{
     width: 100%;
-    height: 20vh;
+    height: 100vh;
     background-color: white;
     position: relative;
-     display: flex;
-    justify-content: center;
 }
 #header{
     width: 100%;
@@ -89,33 +92,14 @@
     color: white;
 }
 }
-#openBtnDiv{
-    width: 100px;
-    position: relative;
-    top: -135.30%;
-    left: 21%;
-}
-#openBtn{
-    width: 40px;
-    height: 36px;
-    background-color: red;
-    color: white;
-    border: none;
-}
-#openBtn a{
-    background-color: red;
-    color: white;
-    border: none;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size:15px;
+.Kategoriya:hover{
+    box-shadow: 1px 5px 10px 0 red;
 }
 #form{
     width: 100%;
     height: 100%;
     position: relative;
-    top: -190%;
+    top: -100%;
     left: 33%;
 }
 #form #inp{
@@ -123,7 +107,7 @@
     height: 30px;
     position: absolute;
     top: -30%;
-}   
+}
 .inpBtn{
     width: 10%;
     position: absolute;
@@ -152,121 +136,95 @@ a{
   left: -7.70%;
   top: -5px;
 }
-#catbody{
-  width: 100%;
-  height: 100%;
-}
-#catName{
-    width: 9%;
-    position: relative;
-    left: 11%
-}
-#catAll{
-    position: relative;
-    left: 21%;
-    bottom: 20px;
-    width: 9%;
-}
-#catBtn{
-    position: relative;
-    left: 11%;
-}
-.catBtn{
- height: 30px;
- border: none;
- width: 10%;
- border-radius: 5px;
-}
-#catPrice{
-    width: 100%;
-    height: 400px;
-     position:relative ;
-    left: 10.20%;
-    top: 100%;
-    padding: 0px 10px;
-}
-#catPrice button{
-    padding: 0 30px;
-}
-.catbtn{
-    position: relative;
-    left: 20%;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    height: 30px;
-    text-align: start;
-}
-
-#catPrice a{
-    position: relative;
-    left: 2%;
-    top: 10%;
-}
-#catselect{
-    position: relative;
-    left: 79%;
-    width: 10px
-}
-#catInp{
-    position: relative;
-    top: -250px;
-    left: 11%;
-}
-#footer{
-    margin: 0px;
-    position: relative;
-    background-color: red;
-    width: 100%;
-    height: 300px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.OtLb {
-    position: relative;
-    top: -30px;
-    font-size: 13px;
-}
-.DoLb {
-    position: absolute;
-    top: -28px;
-    left: 8%;
-    font-size: 13px;
-}
-.OtInp {
-    position: absolute;
-    top: -10px;
-    left: -0%;
-    width: 100px;
-    height: 20px;
-}
-.DoInp {
-    position: absolute;
-    top: -10px;
-    left: 8%;
-    width: 100px;
-    height: 20px;
-}
-#logo1{
-    background-color: red;
-    border: none;
-    position: relative;
-    top: 100%;
-    color: black;
-    padding: 15px;
-    position: absolute;
-    top: 15%;
-    left: 11%;
-}
-#logo1 h1{
-    width: 55%;
+#categoryMenyu{
+    display: none;
+    position: absolute;  
+    top: 110px;
+    height: 50%;
     background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    box-shadow: 1xp 1px 0px 0px black;
 }
-#logo1 span {  
+#menyuBtn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 11%;
+}
+#Btexnika{
+    width:200px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    padding: 10px   ;
+    display: flex;
+    justify-content: start;
+}
+#Btexnika:hover{
     background-color: red;
+    color: white;
+
+}
+#closeBtnDiv{
+    position: relative;
+    top: -128.30%;
+    left: 76%;
+}
+#closeBtn{
+    width: 40px;
+    height: 36px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+#catMenyuH1{
+    position: relative;
+    top: -120%;
+    left: 120%;
+    width: 100%;
+    height: 10%;
+}
+#catMenyuH1 #cath1 {
+    width: 50%6;
+    border: 1px solid black;
+}
+#catTur{
+    position: absolute;
+    top: 140%;
+}
+#p{
+    position: relative;
+    top: 150%;
+    list-style-type: none;
+}
+#p li{
+    padding: 3px;
+    color: gray;
+}
+#p a{
+    color: gray;
+}
+#catqol{
+       position: relative;
+    top: -499%;
+   left: 90%;
+}
+#catqoll{
+     position: relative;
+    top: -490%;
+   left: 90%;
+   list-style-type: none;
+}
+#catqoll li{
+    padding: 3px;
+    color: gray;
+}
+#catsetting {
+    width: 100%;
+    height: 100%;
+    background-color: black;
     color: white;
 }
