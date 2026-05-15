@@ -1,0 +1,1061 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    position: relative;
+}
+
+#locition {
+    position: absolute;
+    padding: 15px;
+    left: 10%;
+}
+
+#locition .p1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#phoneNumber {
+    position: absolute;
+    padding: 15px;
+    left: 75%;
+}
+
+#lang {
+    position: absolute;
+    padding: 15px;
+    left: 90%;
+}
+
+#lang select {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#lang option {
+    background-color: white;
+    color: black;
+}
+
+#logo {
+    background-color: white;
+    box-shadow: 1px 1px 1px 0 black;
+    position: relative;
+    top: 100%;
+    width: 98.10%;
+    height: 100%;
+    color: black;
+    padding: 15px;
+}
+
+#logo h1 {
+    position: absolute;
+    left: 11%;
+}
+
+#logo span {
+    background-color: red;
+    color: white;
+}
+
+#category {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 21%;
+}
+
+.Kategoriya {
+    position: absolute;
+    width: 10%;
+    height: 90%;
+    top: -35%;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+@media ((min-width:400px) and (max-width:1400px)) {
+    .Kategoriya {
+        position: absolute;
+        width: 5%;
+        height: 90%;
+        top: -30%;
+        left: 5%;
+        border: none;
+        background-color: red;
+        color: white;
+    }
+}
+
+#openBtnDiv {
+    width: 100px;
+    position: relative;
+    top: -135.30%;
+    left: 21%;
+}
+
+#openBtn {
+    width: 40px;
+    height: 36px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#openBtn a {
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+}
+
+/*=======*/
+#form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -190%;
+    left: 33%;
+}
+
+#form #inp {
+    width: 30%;
+    height: 30px;
+    position: absolute;
+    top: -40%;
+}
+
+.inpBtn {
+    width: 5%;
+    position: absolute;
+    left: 30%;
+    height: 34px;
+    top: -40%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+nav button {
+    background-color: white;
+    border: none    ;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 0 10px;
+    left: -7.70%;
+    top: -10px;
+}
+
+#catbody {
+    width: 100%;
+    height: 100vh;
+}
+
+#catName {
+    width: 9%;
+    position: relative;
+    left: 11%
+}
+
+#catAll {
+    position: relative;
+    left: 21%;
+    bottom: 20px;
+    width: 9%;
+}
+
+#catBtn {
+    position: relative;
+    left: 11%;
+}
+
+.catBtn {
+    height: 30px;
+    border: none;
+    width: 10%;
+    border-radius: 5px;
+}
+
+#catPrice {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    left: 10.20%;
+    top: 100%;
+    padding: 0px 10px;
+}
+
+#catPrice button {
+    padding: 0 30px;
+}
+
+.catRm {
+    position: relative;
+    left: 32%;
+    top: -10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 25px;
+    width: 90px;
+    padding: 0px 5px;
+    text-align: start;
+}
+
+#catKr {
+    position: relative;
+    left: 32%;
+    top: -10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 25px;
+    width: 90px;
+    padding: 0px 5px;
+    text-align: start;
+}
+
+#catMod {
+    position: relative;
+    left: 32%;
+    top: -10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 25px;
+    width: 90px;
+    padding: 0px 5px;
+    text-align: start;
+}
+
+.catSdd {
+    position: relative;
+    left: 32%;
+    top: -10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 25px;
+    width: 90px;
+    padding: 0px 5px;
+    text-align: start;
+}
+
+/*=======*/
+#catMenyuH1 #cath1 {
+    width: 50%;
+    border: 1px solid black;
+}
+
+#catTur {
+    position: absolute;
+    top: 130%;
+    ;
+}
+
+#p {
+    position: relative;
+    top: 140%;
+    list-style-type: none;
+}
+
+.catPric {
+    position: relative;
+    top: 20px;
+}
+
+#catPrice {
+    position: relative;
+    left: 2%;
+    top: 10%;
+}
+
+#catselect {
+    position: relative;
+    left: 79%;
+    width: 10px
+}
+
+#catInp {
+    position: relative;
+    top: 90px;
+    left: 11%;
+}
+
+#lb {
+    position: relative;
+    top: -30px;
+}
+
+/* 
+#footer{
+    margin: 0px;
+    position: relative;
+    top: 1000%;
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.OtLb {
+    position: relative;
+    top: -30px;
+    font-size: 13px;
+}
+
+.DoLb {
+    position: absolute;
+    top: -28px;
+    left: 8%;
+    font-size: 13px;
+}
+
+.OtInp {
+    position: absolute;
+    top: -10px;
+    left: -0%;
+    width: 100px;
+    height: 20px;
+}
+
+.DoInp {
+    position: absolute;
+    top: -10px;
+    left: 8%;
+    width: 100px;
+    height: 20px;
+}
+
+#logo1 {
+    background-color: red;
+    border: none;
+    position: relative;
+    top: 100%;
+    color: black;
+    padding: 15px;
+    position: absolute;
+    top: 15%;
+    left: 11%;
+}
+
+#logo1 h1 {
+    width: 55%;
+    background-color: white;
+}
+
+#logo1 span {
+    background-color: red;
+    color: white;
+}
+
+/*=======*/
+#catqoll li {
+    padding: 3px;
+    color: gray;
+}
+
+#catPrice {
+    position: absolute;
+    top: 130%;
+    left: 190%;
+    width: 100%;
+}
+
+#catMod {
+    display: none;
+}
+
+#catKr {
+    display: none;
+}
+
+.catRm {
+    display: none;
+}
+
+.catSdd {
+    display: none;
+}
+
+.closebt {
+    display: none;
+    position: relative;
+    left: 30%;
+    top: -10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+#Products {
+    width: 50%;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    color: black;
+    top: -330px;
+    left: 28%;
+
+}
+.product {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top: 2%;
+     left: 2%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product h3{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product1 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:2%;
+     left: 22%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+
+}
+.product1:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product1 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product1 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product1 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product2 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:2%;
+     left: 42%;
+     box-shadow: 1px 1px 2px 0 black;
+    background-color: white;
+}
+.product2:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product2 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product2 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product2 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product3 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:2%;
+     left: 62%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+
+}
+.product3:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product3 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product3 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product3 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product4 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:2%;
+     left: 82%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+
+}
+.product4:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product4 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product4 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+#product4 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product5 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:25%;
+     left: 2%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+
+}
+.product5:hover{
+   box-shadow: 1px 1px 10px 0 black;
+}
+.product5 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product5 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product5 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product6 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:25%;
+     left: 22%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+
+}
+.product6:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product6 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product6 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product6 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product7 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:25%;
+     left: 42%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+
+}
+.product7:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product7 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product7 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product7 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product8 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:25%;
+     left: 62%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+
+}
+.product8:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product8 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product8 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product8 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product9 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:25%;
+     left: 82%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+}
+.product9:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product9 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product9 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product9 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product10 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:50%;
+     left: 2%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+}
+.product10:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product10 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product10 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product10 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product11 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:50%;
+     left: 22%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product11:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product11 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product11 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product11 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product12 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:50%;
+     left: 42%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product12:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product12 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product12 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product12 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product13 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:50%;
+     left: 62%;
+    background-color: white;
+     box-shadow: 1px 1px 2px 0 black;
+
+}
+.product13:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product13 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product13 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product13 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product14 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:50%;
+     left: 82%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product14:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product14 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product14 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product14 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product15 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:75%;
+     left: 2%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product15:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product15 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product15 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product15 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product16 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:75%;
+     left: 22%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product16:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product16 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product16 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product16 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product17 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:75%;
+     left: 42%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product17:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product17 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product17 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product17 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product18 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:75%;
+     left: 62%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product18:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product18 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+#product18 h3 a{
+    text-decoration-line: none;
+    color: black;
+}
+.product18 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+.product19 {
+     width: 120px;
+     height: 150px;
+     position: absolute;
+     top:75%;
+     left: 82%;
+    background-color: white;
+        box-shadow: 1px 1px 2px 0 black;
+}
+.product19:hover{
+    box-shadow: 1px 1px 10px 0 black;
+}
+.product19 h3{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 40%;
+}
+.product19 p{
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 30%;
+}
+#catbtn {
+    position: relative;
+    top: 15px;
+}   
+#footer {
+    margin: 0px;
+    position: relative;
+    top: 1000%;
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#footer2 {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+#headerDiv {
+    width: 12%;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px  0 black;
+ position: relative;
+    top: -35px;
+       left: 80%;
+       text-align: center;
+       display: flex;
+       flex-wrap: wrap;
+       display: none;
+}
+#headerDiv h3 {
+    height: 22px;
+    position: relative;
+    top: 5%;
+    left: 40%;
+}
+#headerDiv button {
+    width: 90%;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: start;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}

@@ -99,39 +99,40 @@
     top: -100%;
     left: 33%;
 }
-#form #inp{
+#form #inp {
     width: 30%;
     height: 30px;
     position: absolute;
-    top: -30%;
+    top: -40%;
 }
-.inpBtn{
-    width: 10%;
+
+.inpBtn {
+    width: 5%;
     position: absolute;
-    left: 32%;
+    left: 30%;
     height: 34px;
-    top: -30%;
+    top: -40%;
     background-color: red;
     color: white;
     border: none;
 }
-.inpBtn:hover{
-box-shadow: 1px 5px 10px 0 red;
-}
 
-nav{
+nav {
     width: 100%;
     height: 100%;
     position: absolute;
     left: 50%;
 }
-a{
-  text-decoration: none;
-  color: black;
-  position:relative;
-  padding: 0 10px;
-  left: -7.70%;
-  top: -5px;
+
+nav button {
+    background-color: white;
+    border: none    ;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 0 10px;
+    left: -7.70%;
+    top: -10px;
 }
 #categoryMenyu{
     display: none;

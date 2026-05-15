@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="locition">
+                <p class="p1">Adres:Urganch,darital,2-etaj</p>
+            </div>
+            <div id="phoneNumber">
+                <p class="p2">Telefon raqam:(99) 900 10 10</p>
+            </div>
+            <div id="lang">
+                <select name="" id="select">
+                    <option value="">o'z</option>
+                    <option value="">rus</option>
+                    <option value="">ing</option>
+                </select>
+            </div>
+            <div id="logo">
+                <h1>Luma<span>shop</span></h1>
+            </div>
+            <div id="category">
+                <button class="Kategoriya" onclick="openMenyu()">Kategoriya</button>
+            </div>
+            <div id="openBtnDiv">
+                <button id="openBtn"><a href="index.html">⩸</a></button>
+            </div>
+            <div id="form">
+                <form action="">
+                    <input type="text" id="inp">
+                    <button class="inpBtn" onclick="search()">search</button>
+                    <nav>
+                        <button >Korzinka</button>
+                        <button >Izbirinniy</button>
+                        <button id="profilBtn">Profil</button>
+                    </nav>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="catBody">
+        <div id="headerDiv">
+            <h3>hello </h3>
+            <hr style="width: 100px;position: absolute; left: 22%;top: 35px;">
+            <button>Shaxsiy Kabinet</button>
+            <button>Mening Tovarlarim</button>
+            <button>Bildirishnomalar</button>
+            <button>Chiqish</button>
+        </div>
+        <h3 id="catName">Noutbook HP</h3>
+        <p id="catAll"> Barch Tovarlar 36</p>
+        <div id="catBtn">
+            <button class="catBtn">HP Victus 15</button>
+            <button class="catBtn">Asus TUF 4R</button>
+            <button class="catBtn">HP Victus 15</button>
+            <button class="catBtn">Asus TUF 4R</button>
+            <button class="catBtn">HP Victus 15</button>
+        </div>
+        <h4 style="color: black; position: relative; left: 11%;top: 25px;">Price(Narx)</h4>
+        <div id="catbtn">
+            <button id="catMod"></button>
+            <button class="closebt" id="catbtMod">x</button>
+            <button id="catKr"></button>
+            <button class="closebt" id="catbtKr">x</button>
+            <button class="catRm"></button>
+            <button class="closebt" id="catbtRm">x</button>
+            <button class="catSdd"></button>
+            <button class="closebt" id="catbtSdd">x</button>
+        </div>
+        <div id="catInp">
+            <form action="">
+                <label for="" class="OtLb">От</label><br>
+                <input type="text" class="OtInp"><br>
+                <label for="" class="DoLb">До</label><br>
+                <input type="text" class="DoInp">
+                <div id="lb">
+
+                    <h3 style="padding: 5px 0px; ">Brend</h3>
+                    <input type="checkbox" id="catModInp" value="HP" name="inp" onclick="cat()" ondblclick="close()" style="color:white;background-color: red;">
+                    <label for="name">HP</label>
+                    <h3 style="padding: 5px 0px; ">Video Karta</h3>
+                    <input type="radio" id="catKrInp1" value="AMD" name="catKrInp">
+                    <label for="name">AMD</label><br>
+                    <input type="radio" name="catKrInp" id="catKrInp2" value="Nvidia">
+                    <label for="name">Nvidia</label><br>
+                    <input type="radio" name="catKrInp" id="catKrInp3" value="Intel">
+                    <label for="name">Intel graphics</label>
+                    <h3 style="padding: 5px 0px; ">Operativ xotira</h3>
+                    <input type="radio" name="catRmInp" id="catRmInp1" value="4gb">
+                    <label for="name">4gb</label><br>
+                    <input type="radio" name="catRmInp" id="catRmInp2" value="8gb">
+                    <label for="name">8gb</label><br>
+                    <input type="radio" name="catRmInp" id="catRmInp3" value="16gb">
+                    <label for="name">16gb</label>
+                    <h3 style="padding: 5px 0px; ">SDD</h3>
+                    <input type="radio" name="catSddInp" id="catSddInp1" value="256gb">
+                    <label for="name">256gb</label><br>
+                    <input type="radio" name="catSddInp" id="catSddInp2" value="512gb">
+                    <label for="name">512gb</label><br>
+                    <input type="radio" name="catSddInp" id="catSddInp3" value="1tb">
+                    <label for="name">1tb</label>
+                </div>
+            </form>
+        </div>
+        <div id="Products">
+            <div class="product">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product1">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product2">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product3">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product4">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product5">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product6">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product7">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product8">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product9">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product10">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product11">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product12">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product13">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product14">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product15">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product16">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product17">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product18">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+            <div class="product19">
+                <img src="img/1.png" alt="">
+                <h3><a href="cate.html">HP Victus 15</a></h3>
+                <p>Narx: 900$</p>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer1">
+                <h3>Luma<span>shop</span></h3>
+                <p>Urganch,darital,2-etaj</p>
+                <p>(99) 900 10 10</p>
+            </div>
+            <div id="footer2">
+                <h3>Biz bilan bog'lanish</h3>
+                <p>Telefon raqam:(99) 900 10 10</p>
+                <p>Email:
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
