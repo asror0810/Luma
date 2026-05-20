@@ -126,14 +126,14 @@ body{
     width: 30%;
     height: 30px;
     position: absolute;
-    top: -30%;
+    top: -40%;
 }   
 .inpBtn{
     width: 90px;
     position: absolute;
     left: 30%;
     height: 34px;
-    top: -31%;
+    top: -40%;
     background-color: red;
     color: white;
     border: none;
@@ -148,13 +148,15 @@ nav{
     position: absolute;
     left: 45%;
 }
-a{
-  text-decoration: none;
-  color: black;
-  position:relative;
-  padding: 0 10px;
-  left: -7.70%;
-  top: -5px;
+nav button {
+    background-color: white;
+    border: none    ;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 0 10px;
+    left: -7.70%;
+    top: -10px;
 }
 #ProductsInfo{
     width: 100%;
@@ -174,7 +176,20 @@ a{
     position: relative;
     left: 11%;
     top: 50px;
-    background-color: yellowgreen;
+    background-color: white;
+}
+#img1{
+    display:block;
+}
+#img3{
+    position: relative;
+    left: 0.01%;
+    display: none  ;
+}
+#img4{
+    position: relative;
+    left: 0.01%;
+    display: none;
 }
 #ImgDiv img{
     position: absolute;
@@ -184,6 +199,8 @@ a{
     background-position: cover;
     box-sizing: border-box;
     border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
 }
 #information{
     width: 20%;
@@ -322,7 +339,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 
 }
-/* #div {
+ #div {
     height: 340px;
 }
 #div  h3{
@@ -331,23 +348,8 @@ a{
     margin: 15px;
     left: 4%;
     font-family: Arial, Helvetica, sans-serif;
-} */
- #div{
-  width: 250px;
-  padding: 15px;
-  border-radius: 10px;
-  background: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+} 
 
-#div img{
-  width: 100%;
-}
-
-#div  h3{
-  font-size: 22px;
-  margin: 10px 0;
-}
 #product21{
     width: 110px;
     height: 190px;
@@ -361,81 +363,73 @@ a{
 }
 #product21 h3{
     position: relative;
-    top: 10%;
-    left: 5%;
-    font-size: 20px;
+    top: 50%;
+    width: 100%;
+    height: 10%;
+    left: -10%;
+    font-size: 15px;
+    font-weight: bolder;
 }
 #product21 p{
     position: relative;
-    top: 20%;
+    top: 48%;
+    width: 100%;
     left: 5%;
     font-size: 15px;
 } 
 
-.price{
-    color: #7f4dff;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0;
-}
 
-.product-card button{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    background: #7f4dff;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.product-card button:hover{
-    background: #6935ff;
-}
 #product22{
     width: 110px;
-    height: 150px;
+    height: 190px;
     background-color:white;
     border: 1px solid black;
     position: relative;
-    top: -52px;
-    left: 15%;
+    top: -91px;
+    left: 16%;
+      padding-bottom: 30px;
+    padding: 0px 10px;
 }
 #product22 h3{
     position: relative;
-    top: 10%;
-    left: 5%;
-    font-size: 20px;
+    top: 50%;
+    left: -10%;
+    font-size: 15px;
+
 }
 #product22 p{
     position: relative;
-    top: 20%;
+    top: 48%;
+    width: 100%;
     left: 5%;
     font-size: 15px;
 }
 #product23{
     width: 110px;
-    height: 150px;
+    height: 190px;
     background-color:white;
     border: 1px solid black;
     position: relative;
-    top: -202px;
-    left: 25%;
+    top: -282px;
+    left: 27%;
+      padding-bottom: 30px;
+    padding: 0px 10px;
 }
 #product23 h3{
     position: relative;
-    top: 10%;
-    left: 5%;
-    font-size: 20px;
+    top: 50%;
+    left: -10%;
+    font-size: 11px;
+     font-size: 15px;
+    font-weight: bolder;
 }
 #product23 p{
     position: relative;
-    top: 20%;
+    top: 48%;
+    width: 100%;
     left: 5%;
     font-size: 15px;
-}
+} 
 #box{
     width: 110px;
     height: 150px;
@@ -650,4 +644,194 @@ left: 12%;
 .passLb2{
     position: absolute;
     top: 55%;
+}
+
+#ProAddKor{
+    width: 20%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 85%;
+    top: -270%;
+    display: none;
+}
+
+/* ================= RESPONSIVE ================= */
+
+*{
+    box-sizing:border-box;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+html,body{
+    overflow-x:hidden;
+}
+
+@media screen and (max-width:992px){
+
+    #header{
+        height:auto;
+        padding:10px 0;
+    }
+
+    #locition,
+    #phoneNumber,
+    #lang{
+        position:static;
+        display:block;
+        text-align:center;
+        padding:5px 0;
+    }
+
+    #logo{
+        height:auto;
+        text-align:center;
+    }
+
+    #logo h1{
+        position:static;
+    }
+
+    #category,
+    nav,
+    #form{
+        position:static;
+        left:0;
+        top:0;
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+        margin-top:15px;
+    }
+
+    .Kategoriya{
+        position:static;
+        width:180px;
+        height:45px;
+    }
+
+    #form #inp{
+        position:static;
+        width:70%;
+    }
+
+    .inpBtn{
+        position:static;
+        width:120px;
+    }
+
+    nav button{
+        position:static;
+    }
+
+    #Products{
+        width:100%;
+        left:0;
+        top:0;
+        height:auto;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+        padding:20px;
+    }
+
+    .product,
+    .product1,
+    .product2,
+    .product3,
+    .product4,
+    .product5,
+    .product6,
+    .product7,
+    .product8,
+    .product9,
+    .product10,
+    .product11,
+    .product12,
+    .product13,
+    .product14,
+    .product15,
+    .product16,
+    .product17,
+    .product18,
+    .product19{
+        position:static;
+    }
+
+    #footer{
+        top:0;
+        height:auto;
+        padding:20px;
+        flex-direction:column;
+        text-align:center;
+    }
+
+    #footer1,
+    #footer2{
+        position:static;
+        margin-top:10px;
+    }
+
+    #ImgDiv,
+    #information,
+    #Price{
+        width:90%;
+        position:static;
+        margin:20px auto;
+        left:0;
+        top:0;
+    }
+
+    #InfoPro p{
+        width:90%;
+    }
+
+    #product21,
+    #product22,
+    #product23{
+        position:static;
+        margin:20px auto;
+    }
+
+    #formCom{
+        width:90%;
+        left:5%;
+        top:0;
+    }
+}
+
+@media screen and (max-width:576px){
+
+    #logo h1{
+        font-size:24px;
+    }
+
+    .Kategoriya,
+    nav button,
+    .inpBtn{
+        width:90%;
+    }
+
+    #form{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #form #inp{
+        width:90%;
+    }
+
+    #Products{
+        padding:10px;
+    }
 }

@@ -31,9 +31,51 @@ const p = document.getElementById("p")
 const hk = document.getElementById("hk")
 const hk2 = document.getElementById("hk2")
 
-
-
 // const nameInp = document.querySelector(".nameInp")
 // const nameInp = document.querySelector(".emailInp")
 // const nameInp = document.querySelector(".passInp")
 // const nameInp = document.querySelector(".nameInp")
+
+// ===============================================
+
+
+const img1 = document.getElementById("img1")
+const img2 = document.getElementById("img2")
+// ===================
+const img3 = document.getElementById("img3")
+const Img3 = document.getElementById("Img3")
+// ========================
+const img4 = document.getElementById("img4")
+const Img4 = document.getElementById("Img4")
+img2.addEventListener("click",() => {
+    img1.style.display = "block"
+    img3.style.display = "none"
+    img4.style.display = "none"
+   img2.style.border = "1px solid red"
+   Img3.style.border = "1px solid black"
+   img4.style.border = "1px solid black"
+})
+Img3.addEventListener("click",() => {
+    img3.style.display = "block"
+    img1.style.display = "none"
+    img4.style.display = "none"
+       img2.style.border = "1px solid black"
+   Img3.style.border = "1px solid red"
+   Img4.style.border = "1px solid black"
+})
+Img4.addEventListener("click",() =>{
+      img4.style.display = "block"
+      img1.style.display = "none"
+      img3.style.display = "none"
+       img2.style.border = "1px solid black"
+   Img3.style.border = "1px solid black"
+   Img4.style.border = "1px solid red"
+}
+)
+// ================
+
+const ProAddKor = document.getElementById("ProAddKor")
+
+function openProAdd(){
+    ProAddKor.style.display = "block"
+}

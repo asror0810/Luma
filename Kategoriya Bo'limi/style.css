@@ -1059,3 +1059,180 @@ nav button {
     top: 5%;
     left: 5%;
 }
+
+/* ================= RESPONSIVE ================= */
+
+*{
+    box-sizing:border-box;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+html,body{
+    overflow-x:hidden;
+}
+
+@media screen and (max-width:992px){
+
+    #header{
+        height:auto;
+        padding:10px 0;
+    }
+
+    #locition,
+    #phoneNumber,
+    #lang{
+        position:static;
+        display:block;
+        text-align:center;
+        padding:5px 0;
+    }
+
+    #logo{
+        height:auto;
+        text-align:center;
+    }
+
+    #logo h1{
+        position:static;
+    }
+
+    #category,
+    nav,
+    #form{
+        position:static;
+        left:0;
+        top:0;
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+        margin-top:15px;
+    }
+
+    .Kategoriya{
+        position:static;
+        width:180px;
+        height:45px;
+    }
+
+    #form #inp{
+        position:static;
+        width:70%;
+    }
+
+    .inpBtn{
+        position:static;
+        width:120px;
+    }
+
+    nav button{
+        position:static;
+    }
+
+    #Products{
+        width:100%;
+        left:0;
+        top:0;
+        height:auto;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+        padding:20px;
+    }
+
+    .product,
+    .product1,
+    .product2,
+    .product3,
+    .product4,
+    .product5,
+    .product6,
+    .product7,
+    .product8,
+    .product9,
+    .product10,
+    .product11,
+    .product12,
+    .product13,
+    .product14,
+    .product15,
+    .product16,
+    .product17,
+    .product18,
+    .product19{
+        position:static;
+    }
+
+    #footer{
+        top:0;
+        height:auto;
+        padding:20px;
+        flex-direction:column;
+        text-align:center;
+    }
+
+    #footer1,
+    #footer2{
+        position:static;
+        margin-top:10px;
+    }
+
+    #ImgDiv,
+    #information,
+    #Price{
+        width:90%;
+        position:static;
+        margin:20px auto;
+        left:0;
+        top:0;
+    }
+
+    #InfoPro p{
+        width:90%;
+    }
+
+    #product21,
+    #product22,
+    #product23{
+        position:static;
+        margin:20px auto;
+    }
+
+    #formCom{
+        width:90%;
+        left:5%;
+        top:0;
+    }
+}
+
+@media screen and (max-width:576px){
+
+    #logo h1{
+        font-size:24px;
+    }
+
+    .Kategoriya,
+    nav button,
+    .inpBtn{
+        width:90%;
+    }
+
+    #form{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #form #inp{
+        width:90%;
+    }
+
+    #Products{
+        padding:10px;
+    }
+}
